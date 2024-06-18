@@ -1,0 +1,15 @@
+name: Scheduled GET Request
+
+on:
+  schedule:
+    # Executa a cada 30 minutos
+    - cron: "0,30 8-22 * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Make a GET request
+        run: |
+          curl -X GET "https://backendbethab4a-fqz9dyv2.b4a.run/cadastros/keep-alive"
