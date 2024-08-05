@@ -2,7 +2,7 @@ name: Scheduled GET Request
 
 on:
   schedule:
-    - cron: "0,25,50 7-21 * * *"
+    - cron: "0,25,50 7-18 * * *"
   workflow_dispatch:
 
 jobs:
