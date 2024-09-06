@@ -12,4 +12,4 @@ jobs:
     steps:
       - name: Make a GET request
         run: |
-          curl -X GET "https://backendbethab4a-fqz9dyv2.b4a.run/cadastros/keep-alive"
+          curl -X GET "https://backendb4a-heau1v79.b4a.run/cadastros/keep-alive"
